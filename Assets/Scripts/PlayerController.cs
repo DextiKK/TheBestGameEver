@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 _moveVector;
     private CharacterController _characterController;
     private float _fallVelocity = 0;
-    // Start is called before the first frame update
+
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         // Movement
